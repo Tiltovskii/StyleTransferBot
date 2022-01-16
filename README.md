@@ -52,6 +52,8 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 **Летняя фотография в зимнюю**
 <p align='center'>
   <b>Летняя фотография в зимнюю</b>
+</p>
+<p align='center'>
   <img src='photos/538614504/forest.jpg' height='512' width='256'/>
   <img src='photos/538614504/forest_to_winter.jpg' height='512' width='256'/>
 </p>
