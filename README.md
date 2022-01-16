@@ -96,8 +96,8 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 </p>
 
 <p align='center'>
-  <img src='photos/538614504/apples2.jpg' height='256' width='256'/>
-  <img src='photos/538614504/oranges2.jpg' height='256' width='256'/>
+  <img src='photos/538614504/apples2.jpg' height='350' width='256'/>
+  <img src='photos/538614504/oranges2.jpg' height='350' width='256'/>
 </p>
 
 <p align='center'>
