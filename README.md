@@ -49,22 +49,29 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 
 3) Последняя модель - [CycleGAN](https://github.com/Lornatang/CycleGAN-PyTorch) от [Loranatang](https://github.com/Lornatang). Данная модель уже меняет стиль на какой-то предобученный и у [Loranatang](https://github.com/Lornatang) есть тройка весов, первый из которых меняет яблоки на апельсины и обратно, второй меняет лошадей на зебр, а трейтий изменяет фотографии в стиле Поль Сезанна. Мне показалось, что этого мало и поэтому, используя [Colab](https://colab.research.google.com) и [SaturnCloud](https://saturncloud.io/), удалось обучить модель изменять летнюю фотографию на зимнюю и добавить стиль картин Винсента Ван Гога. Если разобраться в принципе CycleGan, то можно задаться вопрсом: почему, например, есть изменение летней фотографии в зимнюю, но нет зимней в летнюю? Я отвечу, что вычислительные мощности были не шибко огромные, поэтому вариант, когда зимняя фотография преобразовывалась в летнюю, имел слишком много артефактов. Примеры фотографий:
 
-**Летняя фотография в зимнюю**
+
 <p align='center'>
   <b>Летняя фотография в зимнюю</b>
 </p>
+
 <p align='center'>
   <img src='photos/538614504/forest.jpg' height='512' width='256'/>
   <img src='photos/538614504/forest_to_winter.jpg' height='512' width='256'/>
 </p>
 
-**Фотография в стиле картин Поль Сезанне**
+<p align='center'>
+  <b>Фотография в стиле картин Поль Сезанне</b>
+</p>
+
 <p align='center'>
   <img src='photos/538614504/forest.jpg' height='512' width='256'/>
   <img src='photos/538614504/forest_to_cezanne.jpg' height='512' width='256'/>
 </p>
 
-**Фотография в стиле картин Винсента Ван Гога**
+<p align='center'>
+  <b>Фотография в стиле картин Винсента Ван Гога</b>
+</p>
+
 <p align='center'>
   <img src='photos/538614504/forest.jpg' height='512' width='256'/>
   <img src='photos/538614504/forest_to_vanghgog.jpg' height='512' width='256'/>
@@ -75,26 +82,37 @@ Style Transfer Telegram Bot - это мой финальный проект ко
   <img src='photos/538614504/forest2_to_nanghgog.jpg' height='256' width='256'/>
 </p>
 
-**Апельсины в Яблоки**
+<p align='center'>
+  <b>Апельсины в Яблоки</b>
+</p>
 
 <p align='center'>
   <img src='photos/538614504/oranges.jpg' height='256' width='256'/>
   <img src='photos/538614504/apples.jpg' height='256' width='256'/>
 </p>
 
-**Яблоки в Апельсины**
+<p align='center'>
+  <b>Яблоки в Апельсины</b>
+</p>
+
 <p align='center'>
   <img src='photos/538614504/apples2.jpg' height='256' width='256'/>
   <img src='photos/538614504/oranges2.jpg' height='256' width='256'/>
 </p>
 
-**Зебры в лошадей**
+<p align='center'>
+  <b>Зебры в лошадей</b>
+</p>
+
 <p align='center'>
   <img src='photos/538614504/zebras.jpg' height='256' width='256'/>
   <img src='photos/538614504/horses.jpg' height='256' width='256'/>
 </p>
 
-**Лошади в Зебр**
+<p align='center'>
+  <b>Лошади в Зебр</b>
+</p>
+
 <p align='center'>
   <img src='photos/538614504/hourses2.jpg' height='256' width='256'/>
   <img src='photos/538614504/zebras2.jpg' height='256' width='256'/>
