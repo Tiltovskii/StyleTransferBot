@@ -79,7 +79,7 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 
 <p align='center'>
   <img src='photos/538614504/forest2.jpg' height='256' width='256'/>
-  <img src='photos/538614504/forest2_to_nanghgog.jpg' height='256' width='256'/>
+  <img src='photos/538614504/forest2_to_naghgog.jpg' height='256' width='256'/>
 </p>
 
 <p align='center'>
@@ -106,7 +106,7 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 
 <p align='center'>
   <img src='photos/538614504/zebras.jpg' height='256' width='256'/>
-  <img src='photos/538614504/horses.jpg' height='256' width='256'/>
+  <img src='photos/538614504/hourses.jpg' height='256' width='256'/>
 </p>
 
 <p align='center'>
@@ -114,7 +114,7 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 </p>
 
 <p align='center'>
-  <img src='photos/538614504/hourses2.jpg' height='256' width='256'/>
+  <img src='photos/538614504/horses2.jpg' height='256' width='256'/>
   <img src='photos/538614504/zebras2.jpg' height='256' width='256'/>
 </p>
 
