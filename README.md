@@ -51,25 +51,26 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 
 **Летняя фотография в зимнюю**
 <p align='center'>
-  <img src='photos/538614504/forest.jpg' height='256' width='256'/>
-  <img src='photos/538614504/forest_to_winter.jpg' height='256' width='256'/>
+  <b>Летняя фотография в зимнюю</b>
+  <img src='photos/538614504/forest.jpg' height='512' width='256'/>
+  <img src='photos/538614504/forest_to_winter.jpg' height='512' width='256'/>
 </p>
 
 **Фотография в стиле картин Поль Сезанне**
 <p align='center'>
-  <img src='photos/538614504/forest.jpg' height='256' width='256'/>
-  <img src='photos/538614504/forest_to_cezanne.jpg' height='256' width='256'/>
+  <img src='photos/538614504/forest.jpg' height='512' width='256'/>
+  <img src='photos/538614504/forest_to_cezanne.jpg' height='512' width='256'/>
 </p>
 
 **Фотография в стиле картин Винсента Ван Гога**
 <p align='center'>
-  <img src='photos/538614504/forest.jpg' height='256' width='256'/>
-  <img src='photos/538614504/forest_to_vanghgog.jpg' height='256' width='256'/>
+  <img src='photos/538614504/forest.jpg' height='512' width='256'/>
+  <img src='photos/538614504/forest_to_vanghgog.jpg' height='512' width='256'/>
 </p>
 
 <p align='center'>
   <img src='photos/538614504/forest2.jpg' height='256' width='256'/>
-  <img src='photos/538614504/forest2_to_vanghgog.jpg' height='256' width='256'/>
+  <img src='photos/538614504/forest2_to_nanghgog.jpg' height='256' width='256'/>
 </p>
 
 **Апельсины в Яблоки**
@@ -93,7 +94,7 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 
 **Лошади в Зебр**
 <p align='center'>
-  <img src='photos/538614504/horses2.jpg' height='256' width='256'/>
+  <img src='photos/538614504/hourses2.jpg' height='256' width='256'/>
   <img src='photos/538614504/zebras2.jpg' height='256' width='256'/>
 </p>
 
