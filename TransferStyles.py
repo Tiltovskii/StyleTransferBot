@@ -173,10 +173,6 @@ async def run_style_transfer(cnn, device, normalization_mean, normalization_std,
                                 f"{time.strftime('%M:%S', time.gmtime(time.time() - start_time))}...\n"
                                 f'Progress: {round(run[0] / 5 / 1.04, 2)}%....')
         await asyncio.sleep(0.1)
-    # input_img.data.clamp_(0, 1)
-    # img1 = input_img[0]
-    # direct_of_the_output = direct_of_the_photos + '/' + name_of_the_output + '.jpg'
-    # save_image(img1, direct_of_the_output)
 
 
 async def run_style_transfer_from_bot(imsize, direct_of_the_photos, first_photo,
