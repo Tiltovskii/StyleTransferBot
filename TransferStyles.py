@@ -171,7 +171,9 @@ async def run_style_transfer(cnn, device, normalization_mean, normalization_std,
         await message.edit_text(f'Здесь для удобства будет показываться прогресс генерации фотографии.\n'
                                 f"Времени прошло с начала: "
                                 f"{time.strftime('%M:%S', time.gmtime(time.time() - start_time))}...\n"
-                                f'Progress: {round(run[0] / 5 / 1.04, 2)}%....')
+                                f"Примерное время ожидания: "
+                                f"{time.strftime('%M:%S',time.gmtime((time.time() - start_time)* (520 - run[0]) / (run[0] + 1)))}...\n"
+                                f'Прогресс: {round(run[0] / 5 / 1.04, 2)}%....')
         await asyncio.sleep(0.1)
 
 
