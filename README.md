@@ -1,5 +1,6 @@
 # StyleTransferBot
 **Style transfer telegram bot использующий NST и GAN**
+
 Что за Style Transfer Telegram Bot?
 ------------------------------------
 Style Transfer Telegram Bot - это мой финальный проект конца перого семестра курса [Deep Learning School by MIPT](https://en.dlschool.org/).
@@ -142,6 +143,7 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 Тут я сделал всё до "Connect to your instance using SSH. If you have problems connecting to the instance, try following this troubleshooting guide." и вместо  Ubuntu 16.04 выбрал Ubuntu 20.04.
 Дальше с помощью WinSCP я заугрузил нужные файлы и, используя PuTTY, уже управлял VPS из консоли.
 Скорее всего понадобится ввести слежующие команды, чтобы установить питон и избежать ошибок:
+
 `$ sudo apt update`
 
 `$ sudo apt install python3-pip`
