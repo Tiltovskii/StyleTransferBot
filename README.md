@@ -33,7 +33,7 @@ Style Transfer Telegram Bot - это мой финальный проект ко
   <img src='photos/538614504/pho+picasso.jpg' height='256' width='256'/>
 </p>
 
-2) Это уже предобученная модель [MSG-Net](https://github.com/zhanghang1989/PyTorch-Multi-Style-Transfer) от [zhanghang1989](https://github.com/zhanghang1989). Модель находится [здесь](https://github.com/Tiltovskii/StyleTransferBot/blob/master/Pretrained.py) и использует эти [веса](https://github.com/Tiltovskii/StyleTransferBot/blob/master/21styles.model). Результат этой модели получается очень быстро, так как модель не особо большая и уже присутствуют предобученные веса, но качество получаемых изображений меня не совсем устраивает, хотя, может, кому-то и понравится. Примеры снизу:
+2) Это уже предобученная модель [MSG-Net](https://github.com/zhanghang1989/PyTorch-Multi-Style-Transfer) от [zhanghang1989](https://github.com/zhanghang1989). Модель находится [здесь](https://github.com/Tiltovskii/StyleTransferBot/blob/master/Pretrained.py) и использует эти [веса](https://github.com/Tiltovskii/StyleTransferBot/blob/master/21styles.model). Результат этой модели получается очень быстро, так как модель не особо большая, и уже присутствуют предобученные веса, но качество получаемых изображений меня не совсем устраивает, хотя, может, кому-то и понравится. Примеры снизу:
 
 <p align='center'>
   <img src='photos/538614504/sob.jpg' height='256' width='256'/>
