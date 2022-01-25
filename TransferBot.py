@@ -58,16 +58,13 @@ async def size_of_the_image_chosen(message: types.Message, state: FSMContext):
     user_data = await state.get_data()
     direct_of_the_photos = direction_of_the_files + '/' + str(user_data['id_of_user'])
     await message.answer(f'Всё готово!\n'
-                         f'Теперь осталось только подождать, когда изображение сгенерируется.\n'
-                         f'Минимальное время ожидания:\n'
-                         f'1) Для низкого качества ~3 мин.\n'
-                         f'2) Для среднего качества ~10 мин.\n'
-                         f'3) Для высокого качества ~30 мин.\n',
+                         f'Теперь осталось только подождать, когда изображение сгенерируется.',
                          reply_markup=types.ReplyKeyboardRemove())
 
     msg = await message.answer(f'Здесь для удобства будет показываться прогресс генерации фотографии.\n'
                                f'Времени прошло с начала: 00:00...\n'
-                               f'Progress: 0%.....')
+                               f'Примерное время ожидания: 00:00...\n'
+                               f'Прогресс: 0%.....')
 
     name_of_the_output = str(uuid.uuid4())
     await run_style_transfer_from_bot(size, direct_of_the_photos,
