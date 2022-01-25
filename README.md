@@ -146,8 +146,6 @@ Style Transfer Telegram Bot - это мой финальный проект ко
 
 `$ sudo apt install python3-pip`
 
-`$ sudo apt-get install unzip`
-
 `$ sudo apt install libgl1-mesa-glx`
 
 После нужно установить requirments.txt один находится в главной директории, а другой в `CycleGan/cycle`, где лежат нужные библиотеки для CycleGan.
